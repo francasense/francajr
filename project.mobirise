@@ -1,7 +1,7 @@
 {
   "settings": {
     "currentPage": "index.html",
-    "name": "My Site",
+    "name": "Carlos Henrique Castro França Júnior",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -24,7 +24,9 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 51,
-    "versionPublish": "4.1.7"
+    "versionPublish": "4.1.7",
+    "favicon": "@PROJECT_PATH@/assets/images/logojr-128x128.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -87,7 +89,7 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": false,
             "hideButtons": true,
             "sticky": true,
@@ -103,15 +105,21 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/logojrb-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "#top",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "#top",
+              "size": 0,
+              "newWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
@@ -235,7 +243,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2016 França Jr.",
+          "text": "Copyright (c) 2017 França Jr.",
           "_styles": {
             "P": {
               "color": "#ffffff"
