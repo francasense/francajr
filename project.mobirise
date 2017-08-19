@@ -1,0 +1,817 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#3d8eb9",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#ffffff",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": []
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 51,
+    "versionPublish": "4.1.7"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#307193"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#3985ad!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#3d8eb9"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#3d8eb9!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#3d8eb9",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials2-1b\">SOBRE MIM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-18\">HABILIDADES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials3-1c\">EXPERIÊNCIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-1d\">PROJETOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#social-buttons2-14\">CONTATO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-19"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1640x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#3d8eb9",
+            "overlayOpacity": "0.5"
+          },
+          "title": "França Jr<div><br>GameDev - Analista de Sistemas - Aprendiz de Python - Designer</div>",
+          "text": "\"A mente que se abre a uma nova idéia jamais voltará ao seu tamanho original\"<br>Albert Einstein",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-10",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "100px",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title DIV": {
+              "text-align": "center",
+              "font-size": "32px",
+              "color": "#ffffff"
+            },
+            ".mbr-section-lead": {
+              "font-size": "23px",
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showImages": true,
+            "showName": true,
+            "showBio": false,
+            "count": "1",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.2
+          },
+          "title": "SOBRE MIM",
+          "subtitle": "Hoje concentro meus esforços no desenvolvimento de sistemas Web, usando a linguagem Python e framework Web2py e Flask, desenvolvimento Mobile, usando Java , javascript e framework Ionic, bem como Jogos Digitais fazendo uso da liguagemm C# e a Engine Unity3d, atuando tanto na parte de programação para jogos como game design.",
+          "testimonial": [
+            {
+              "authorName": "Carlos Henrique Castro França Júnior",
+              "authorBio": "Use",
+              "text": "<p><b>Formação Acadêmica</b></p><p>Estudante de Matemática Computacional - UFPB.  Pós-graduado em Jogos Digitais - Estácio ( 2015 ). Graduado em Sistemas para internet UNIPÊ (2015).  Graduado em Análise e desenvolvimento de sistemas - IESP (2012).  Sempre me esforçando para aprender novas tecnologias.</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/file017881-138x138.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              }
+            }
+          ],
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials2",
+          "_anchor": "testimonials2-1b",
+          "_styles": {
+            ".card-block P": {
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2969b0",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2016 França Jr.",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "title": "Habilidades",
+          "meta": "Uma lista concisa de algumas das habilidades profissionais valiosas que possuo. Truques de comércio que hoje posso trazer para a mesa.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-18"
+        },
+        {
+          "_inherit": "features4",
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "iconsBgColor": "#3d8eb9",
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "columns": "5",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "desktop",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "mobile",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "rocket",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "up-down",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "globe",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "#3d8eb9",
+              "border-color": "#3d8eb9"
+            },
+            "P": {
+              "color": "#000000",
+              "text-align": "center"
+            }
+          },
+          "title1": "Desenvolvimento Web",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "<b>Linguagens:</b><br>Python, Html, JavaScript, e Java<br><b>Engine/Frameworks:</b><br>Web2Py, Flask e&nbsp;angular",
+          "title2": "Desenvolvimento Mobile",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "<b>Linguagens:</b><br>Java ( Android ) e JavaScript<br><b>Frameworks:</b><br>Ionic<br>",
+          "title3": "Desenvolvimento de Games",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "<b>Linguagens:</b><br>Python, C# e JavaScript<br><b>Engine/Frameworks:</b><br>Unity3d, Construct2 e AndAngine",
+          "title4": "Desenvolvimento de Api",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "<b>Linguagens:</b><br>Python e JavaScript<br><b>Frameworks:</b><br>Flask<br>",
+          "title5": "Espacialização de dados &nbsp;em mapas",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "<b>Frameworks:</b><br>Fusion Tables e CartoDB",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_name": "features7",
+          "_anchor": "features7-16"
+        },
+        {
+          "_inherit": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef"
+            },
+            ".mbr-author-name": {
+              "color": "#ccc"
+            },
+            ".card-block P": {
+              "text-align": "left",
+              "font-size": "16px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "showImages": false,
+            "showName": false,
+            "showBio": false,
+            "count": "2",
+            "paddingTop": "2",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1618x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#3d8eb9",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "title": "Experiências",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "testimonial": [
+            {
+              "authorName": "Profisional.",
+              "authorBio": "User",
+              "text": "<p><b style=\"font-size: 1.125rem;\">Profisional</b><br></p><p>• Chefe de Desenvolvimento de Sistemas de Informação: Secretaria de Estado da Saúde da Paraíba (2015 - CURRENT).<br>• Especialista em Espacialização de dados em mapas: Fábrica de Software da Unipê (2013 - 2015). • GameDev: TicJoy (2015 - 2016).<br>&nbsp;• Analista de Sistemas: SES-PB (2013 - 2015).<br>• Desenvolvedor Android: SES-PB (2011 - 2013).<br>• Web Designer: SES-PB (2007 - 2011).<br>• Técnico de informática: SES-PB&nbsp;(2004 - 2007).<br>• Design Gráfico: Infocards (2003 - 2004).<br>• WebDesign: GaleraGospel (2001 - 2003).<br>• Arte Finalista: Inova Comunicação (2000).<br>• Webdesign: Locadora UEL Vídeo período (1993 - 2000).</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Suffian A.",
+              "authorBio": "User",
+              "text": "<p><b>Técnica</b>  </p><p>• Android<br>• JAVA (Foco em Android)<br>• API<br>• HTML<br>• Flask<br>• Python<br>• Web2py<br>• Google Fusion Tables<br>• CartoDB<br>• Unity3d<br>• Ionic<br>&nbsp;<a href=\"http://lattes.cnpq.br/4374242189050258\" target=\"_blank\" style=\"font-style: normal; font-weight: bold;\">Currículo lattes</a></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            }
+          ],
+          "_name": "testimonials3",
+          "_anchor": "testimonials3-1c"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "PROJETOS",
+          "meta": "Alguns projetos nos quais estou inserido diretamente, seja como &nbsp;Analista de sistemas e/ou como GameDev e/ou Espacializador de dados <br>em Mapas.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1d"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/sshot1-438x328.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/saude-438x328.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/jampabus-438x328.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/sou-438x328.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "https://play.google.com/store/apps/details?id=com.soufiscal.app",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/plant-600x450.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/gunshin-438x328.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Labtransp",
+          "subtitle1": "Função: Analista de Sistemas",
+          "caption1": "O Laboratório de Transparência Pública (LABTRANSP), Laboratório de Pesquisas em Finanças, do Centro de Ciências Sociais Aplicadas, da Universidade Federal da Paraíba.",
+          "title2": "Sistemas de &nbsp;Saúde",
+          "subtitle2": "Função: Analista de Sistemas",
+          "caption2": "Sistemas de controle de gestão e de informação, criados para a secrataria de estado da saúde da Paraíba .",
+          "title3": "Jampabus",
+          "subtitle3": "Função: Designer",
+          "caption3": "O aplicativo JampaBus informa no mapa as paradas de ônibus da região metropolitana de João Pessoa, disponível para Android.",
+          "title4": "souFiscal",
+          "subtitle4": "Função: Analista de Sistemas e Designer",
+          "caption4": "O “SouFiscal” é uma ferramenta que promove a ampliação do poder de participação do cidadão na sociedade",
+          "title5": "Plant Manager",
+          "subtitle5": "Função: Game Dev/Designer",
+          "caption5": "Jogo educativo sobre Crescimento das plantas desenvolvido para uma empresa dos Estados Unidos que possui uma plataforma online de jogos para a educação.",
+          "title6": "Gunshin",
+          "subtitle6": "Função: GameDev e Diretor de arte",
+          "caption6": "Nas regiões mais frias e montanhosas do Japão, onde a honra das famílias são medidas através das habilidades de combate.",
+          "button1": "<a data-app-btn=\"true\" href=\"http://www.transparencia.pub/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SAIBA MAIS</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://infosaudepb.saude.pb.gov.br/mosaico/default/sistemas\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SAIBA MAIS</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://play.google.com/store/apps/details?id=br.com.android.jampabus\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SAIBA MAIS</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://play.google.com/store/apps/details?id=com.soufiscal.app\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"http://ticjoy.com.br/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SAIBA MAIS</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://play.google.com/store/apps/details?id=com.gunshin\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SAIBA MAIS</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-l",
+          "_styles": {
+            "H5": {
+              "color": "#000000"
+            },
+            "H4": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/denverjumper-438x328.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mabembe-438x328.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/soul-438x328.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/audra2-354x251.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "DenverJumper",
+          "subtitle1": "Função: GameDev/GameDesigner",
+          "caption1": "Jogo de Ação no melhor do estilo Jumper, disponível para Android, tablet ou <br>Smartphone.",
+          "title2": "Mambembe",
+          "subtitle2": "Função: GameDev",
+          "caption2": "Assuma o papel do Detetive Gambiarra e ajude a Monga \"A Mulher Macaco\", o Alterofilista, o Palhaço e a Mulher Barbada.",
+          "title3": "Soul Crystal",
+          "subtitle3": "Função: GameDev",
+          "caption3": "Soul Crystal é um Card Game analógico cujos combates acontecem digitalmente através de uma interação direta entre Smarthphones e Tablets.",
+          "title4": "Audra",
+          "subtitle4": "Função: GameArt",
+          "caption4": "Audra(Tempest in Lithuanian) brings the harsh misfortune of a sultam on his magic carpet trying to escape a sandstorm using wind waves to keep himself in flight as he tryes to avoid being struck by sudden bursts or swirls.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://play.google.com/store/apps/details?id=com.sensedenver\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SAIBA MAIS</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://globalgamejam.org/2015/games/mambembe\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SAIBA MAIS</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://globalgamejam.org/2016/games/soul-crystal\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SAIBA MAIS</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://globalgamejam.org/2017/games/audra\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SAIBA MAIS</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-1e"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#2969b0",
+            "overlayOpacity": "0.5"
+          },
+          "text": "SIGA-ME",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/francasense\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/carlos.henrique.9883\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/francasense\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/francasense/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/francajunior/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"VKontakte\" target=\"_blank\" href=\"https://github.com/francasense\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-github mbr-iconfont mbr-iconfont-btn\"></span></a>  ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-14"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "58041080",
+              "placeId": "ChIJKd5S1qzCrAcRC4eD03Qhg70",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<br><br><br><font face=\"Montserrat, sans-serif\"><span style=\"font-size: 24px; letter-spacing: -1px;\"><b>Contato</b></span></font><br>Email: francasense@gmail.com<br>Phone: +55(83)996758666<br><br>",
+          "text2": "<div><font color=\"#000000\" face=\"Montserrat, sans-serif\"><span style=\"letter-spacing: -1px;\"><b></b></span></font></div>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-13",
+          "_styles": {
+            "STRONG": {
+              "color": "#000000",
+              "font-size": "24px"
+            },
+            "P": {
+              "text-align": "center",
+              "color": "#000000",
+              "font-size": "17px"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
