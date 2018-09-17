@@ -1,0 +1,94 @@
+<section class="content">
+  <div class="container-fluid">
+    <!-- SELECT2 EXAMPLE -->
+    <div class="card card-default">
+
+      <!-- /.card-header -->
+
+            <div class="card-body">
+              <h1>{{mode}}</h1>
+                <form action="/confirm" method="post"> {% csrf_token %}
+{% if mode == '1' %}
+<p>Informe seu email, e imediatamente lhe enviaremos um link para que possa continuar o cadastro.</p></p>
+                <div class="row">
+                  <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="id_nome" class="bmd-label-floating">Nome Completo</label>
+                    <input type="text" name="nome" value="{{nome}}" id="id_nome" class="form-control" required>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                <div class="form-group">
+                  <label for="id_Email" class="bmd-label-floating">Email</label>
+                  <input type="email" name="email" value="{{email}}" id="id_Email" class="form-control" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+              <div class="form-group">
+                <label for="id_cpf" class="bmd-label-floating">cpf</label>
+                <input type="number" name="cpf" value="{{cpf}}" id="id_cpf" class="form-control" required>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+            <div class="form-group">
+              <label for="id_telefone" class="bmd-label-floating">Telefone</label>
+              <input type="text" name="telefone" value="{{telefone}}" id="id_telefone" class="form-control" required>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+          <div class="form-group">
+            <label for="id_senha" class="bmd-label-floating">Senha</label>
+            <input type="password" name="senha" value="{{senha}}" id="id_senha" class="form-control" required>
+          </div>
+        </div>
+      </div>
+{% elif mode == "0" %}
+                <div class="row">
+                  <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="id_Email" class="bmd-label-floating">Email</label>
+                    <input type="email" name="email" value="" id="id_Email" class="form-control" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="id_Email" class="bmd-label-floating">Senha</label>
+                    <input type="password" name="senha" value="" id="id_Email" class="form-control" required>
+                  </div>
+                </div>
+              </div>
+{% endif %}
+
+
+
+ <div id="errorsito">
+   {{erro}}
+ </div>
+
+ <button type="submit" align="right" value="submit" class="btn btn btn-info pull-right" required>Enviar</button>
+ <div class="clearfix"></div>
+              </form>
+
+
+            </div>
+
+      <!-- /.card-body -->
+
+    </div>
+    <!-- /.card -->
+
+
+        </div>
+
+</section>
