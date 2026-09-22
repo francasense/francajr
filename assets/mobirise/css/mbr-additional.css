@@ -519,21 +519,25 @@ h6,
 }
 @media (max-width: 767px) {
   #header1-10 .mbr-section-title {
-    font-size: 22px;
+    font-size: 30px;
+  }
+  #header1-10 .hero-name,
+  #header1-10 .hero-role {
+    white-space: normal;
   }
   #header1-10 .hero-role {
-    font-size: 11px;
+    font-size: 14px;
   }
   #header1-10 .mbr-section-lead {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 @media (max-width: 399px) {
   #header1-10 .mbr-section-title {
-    font-size: 18px;
+    font-size: 24px;
   }
   #header1-10 .hero-role {
-    font-size: 9px;
+    font-size: 12px;
   }
   #header1-10 .mbr-section-lead {
     font-size: 11px;
