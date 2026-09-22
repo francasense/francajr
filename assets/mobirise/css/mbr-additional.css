@@ -488,25 +488,44 @@ h6,
 }
 #header1-10 .hero-name {
   display: block;
+  line-height: 1.1;
+  margin-bottom: 16px;
   white-space: nowrap;
 }
 #header1-10 .hero-role {
   display: block;
   text-align: center;
   font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 30px;
   color: #ffffff;
   white-space: nowrap;
 }
 #header1-10 .mbr-section-lead {
-  font-size: 23px;
+  font-size: 19px;
+  line-height: 1.4;
   color: #ffffff;
+}
+@media (max-width: 1024px) {
+  #header1-10 .mbr-section-title {
+    font-size: 24px;
+  }
+  #header1-10 .hero-role {
+    font-size: 12px;
+  }
+  #header1-10 .mbr-section-lead {
+    font-size: 14px;
+  }
 }
 @media (max-width: 767px) {
   #header1-10 .mbr-section-title {
-    font-size: 30px;
+    font-size: 22px;
   }
   #header1-10 .hero-role {
-    font-size: 14px;
+    font-size: 11px;
+  }
+  #header1-10 .mbr-section-lead {
+    font-size: 13px;
   }
 }
 @media (max-width: 399px) {
@@ -515,6 +534,9 @@ h6,
   }
   #header1-10 .hero-role {
     font-size: 9px;
+  }
+  #header1-10 .mbr-section-lead {
+    font-size: 11px;
   }
 }
 #testimonials2-1b .card-block P {
