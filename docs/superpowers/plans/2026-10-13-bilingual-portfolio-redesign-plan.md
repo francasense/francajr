@@ -93,7 +93,7 @@
 
 - [ ] **Step 3: Replace the root Mobirise markup with semantic HTML**
 
-  Build the page sections in the exact order from the spec. Keep all primary copy in Portuguese in the markup, attach `data-i18n` keys to mutable text, use buttons for language/menu controls, use headings in order, and include local image `alt` text. Preserve links to the current LinkedIn, GitHub, Instagram, Facebook, email, project destinations, and CV.
+  Build the page sections in the exact order from the spec. Keep all primary copy in Portuguese in the markup, attach `data-i18n` keys to mutable text, use buttons for language/menu controls, use headings in order, and include local image `alt` text. Preserve links to the current LinkedIn, GitHub, email, project destinations, and CV; keep only LinkedIn and GitHub in the social links.
 
 - [ ] **Step 4: Run structural validation**
 

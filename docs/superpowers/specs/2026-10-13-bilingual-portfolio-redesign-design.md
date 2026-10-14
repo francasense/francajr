@@ -14,7 +14,7 @@ O resultado deve apresentar Carlos Henrique Castro França Júnior como Desenvol
 - Usar as informações consolidadas no currículo e no perfil do LinkedIn.
 - Destacar visualmente os projetos da Méliuz e da Kahsh com imagens associadas a esses trabalhos.
 - Preservar projetos históricos relevantes, como LABTRANSP, JampaBus, Plant Manager e jogos, em uma seção secundária.
-- Incluir links atuais de contato e redes sociais: e-mail, LinkedIn, GitHub, Facebook e Instagram `carlos.fjr`.
+- Incluir links atuais de contato e redes sociais: e-mail, LinkedIn e GitHub.
 - Incluir uma ação de download do currículo em PDF, com cópia local versionada no site.
 
 Fora do escopo: backend, banco de dados, CMS, formulário que envie dados para um servidor, autenticação, analytics novo e migração das páginas legadas para o novo visual.
@@ -103,7 +103,6 @@ Encerramento com uma chamada direta para oportunidades e links para:
 - `francasense@gmail.com`
 - LinkedIn: `linkedin.com/in/francajunior/`
 - GitHub: `github.com/francasense`
-- Instagram: `instagram.com/carlos.fjr/`
 
 ## Comportamento bilíngue
 
