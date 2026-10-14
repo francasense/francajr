@@ -62,6 +62,18 @@ require("Méliuz" in html, "missing Méliuz project card")
 require("Kahsh" in html, "missing Kahsh project card")
 for company in ("Hitss", "Ernst", "Méliuz", "Accenture"):
     require(company in html, f"missing timeline company: {company}")
+for updated_fact in (
+    "INMET",
+    "07/2025",
+    "11/2022",
+    "06/2025",
+    "Context API",
+    "Zustand",
+    "Testing Library",
+    "Google Colab",
+    "Pós-Graduação em Jogos Digitais",
+):
+    require(updated_fact in html, f"missing updated CV fact: {updated_fact}")
 
 for image_path in (
     "assets/images/projects/meliuz/menu-principal.jpg",
