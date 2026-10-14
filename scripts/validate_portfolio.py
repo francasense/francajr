@@ -56,8 +56,24 @@ require("francasense@gmail.com" in html, "missing current email")
 require("linkedin.com/in/francajunior" in html, "missing current LinkedIn URL")
 require("github.com/francasense" in html, "missing current GitHub URL")
 require("instagram.com/carlos.fjr" in html, "missing current Instagram URL")
+require("assets/docs/cv-carlos-franca-junior.pdf" in html, "missing CV download link")
+require("Méliuz" in html, "missing Méliuz project card")
+require("Kahsh" in html, "missing Kahsh project card")
 for company in ("Hitss", "Ernst", "Méliuz", "Accenture"):
     require(company in html, f"missing timeline company: {company}")
+
+for image_path in (
+    "assets/images/projects/meliuz/menu-principal.jpg",
+    "assets/images/projects/meliuz/login.jpg",
+    "assets/images/projects/meliuz/recarga.jpg",
+    "assets/images/projects/kahsh/cadastro.jpg",
+    "assets/images/projects/kahsh/relatorios.jpg",
+    "assets/images/projects/kahsh/transacoes.jpg",
+):
+    require(image_path in html, f"missing local project image reference: {image_path}")
+
+for image_tag in re.findall(r"<img\b[^>]*>", html, flags=re.IGNORECASE):
+    require(bool(re.search(r'\balt="[^"].*?"', image_tag, flags=re.IGNORECASE)), "project image is missing non-empty alt text")
 
 require("translations" in js and 'pt:' in js and 'en:' in js, "missing PT/EN translation dictionaries")
 require("localStorage" in js, "missing language persistence")
