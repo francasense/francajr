@@ -60,9 +60,9 @@
 
 - [ ] **Step 4: Re-run asset-only checks**
 
-  Run: `python3 scripts/validate_portfolio.py`
+  Run: `python3 scripts/validate_portfolio.py --assets-only`
 
-  Expected: still FAIL on missing page structure, but report that staged asset paths are present.
+  Expected: PASS for the staged CV and project image paths. The default validator remains RED until the page, translations, and stylesheet are implemented in Tasks 2–4.
 
 - [ ] **Step 5: Commit the asset and validator foundation**
 
