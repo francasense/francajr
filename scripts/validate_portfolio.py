@@ -78,8 +78,11 @@ for image_tag in re.findall(r"<img\b[^>]*>", html, flags=re.IGNORECASE):
 require("translations" in js and 'pt:' in js and 'en:' in js, "missing PT/EN translation dictionaries")
 require("localStorage" in js, "missing language persistence")
 require("site.css" in html, "index.html does not load site.css")
+require("--color-bg" in css and "--color-accent" in css, "missing dark theme variables")
+require("@media" in css and "max-width" in css, "missing responsive breakpoint")
 require(":focus-visible" in css, "missing keyboard focus style")
 require("prefers-reduced-motion" in css, "missing reduced-motion support")
+require("object-fit" in css and "max-width: 100%" in css, "missing constrained project media rules")
 
 data_keys = set(re.findall(r'data-i18n="([^"]+)"', html))
 data_keys.update(re.findall(r'data-i18n-alt="([^"]+)"', html))
