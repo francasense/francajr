@@ -88,7 +88,8 @@ for image_path in (
     require(image_path in html, f"missing local project image reference: {image_path}")
 
 for image_tag in re.findall(r"<img\b[^>]*>", html, flags=re.IGNORECASE):
-    require(bool(re.search(r'\balt="[^"].*?"', image_tag, flags=re.IGNORECASE)), "project image is missing non-empty alt text")
+    is_decorative_background = "mobile-wireframes.png" in image_tag and 'alt=""' in image_tag
+    require(is_decorative_background or bool(re.search(r'\balt="[^"].*?"', image_tag, flags=re.IGNORECASE)), "project image is missing non-empty alt text")
 
 require("translations" in js and 'pt:' in js and 'en:' in js, "missing PT/EN translation dictionaries")
 require("localStorage" in js, "missing language persistence")
@@ -104,6 +105,9 @@ require("object-fit" in css and "max-width: 100%" in css, "missing constrained p
 require('class="grid-layer"' in html, "missing fixed grid layer")
 require(".grid-layer" in css and "mask-image" in css and "position: fixed" in css, "missing masked fixed grid styling")
 require("--grid-shift" in css and "requestAnimationFrame" in js and 'setProperty("--grid-shift"' in js, "missing grid parallax behavior")
+require('class="wireframe-layer"' in html and "assets/images/wireframe/mobile-wireframes.png" in html, "missing wireframe background asset")
+require(".wireframe-layer" in css and "rotate(" in css and "position: fixed" in css, "missing diagonal wireframe background styling")
+require("--wireframe-shift" in css and 'setProperty("--wireframe-shift"' in js, "missing wireframe parallax behavior")
 require("function scrollToSection" in js and 'querySelector(".section-heading")' in js and "window.scrollTo" in js, "missing section heading scroll alignment")
 
 data_keys = set(re.findall(r'data-i18n="([^"]+)"', html))

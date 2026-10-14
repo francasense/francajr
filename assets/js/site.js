@@ -288,14 +288,18 @@ function setupSectionObserver() {
   updateFromScroll();
 }
 
-function setupGridParallax() {
+function setupBackgroundParallax() {
   const grid = document.querySelector(".grid-layer");
-  if (!grid || prefersReducedMotion()) return;
+  const wireframe = document.querySelector(".wireframe-layer");
+  if ((!grid && !wireframe) || prefersReducedMotion()) return;
   let frame = 0;
   const update = () => {
     frame = 0;
-    const shift = Math.max(-72, Math.min(72, window.scrollY * -0.08));
-    document.documentElement.style.setProperty("--grid-shift", `${shift.toFixed(2)}px`);
+    const scrollY = window.scrollY;
+    const gridShift = Math.max(-72, Math.min(72, scrollY * -0.08));
+    const wireframeShift = Math.max(-180, Math.min(180, scrollY * -0.18));
+    document.documentElement.style.setProperty("--grid-shift", `${gridShift.toFixed(2)}px`);
+    document.documentElement.style.setProperty("--wireframe-shift", `${wireframeShift.toFixed(2)}px`);
   };
   const requestUpdate = () => {
     if (!frame) frame = window.requestAnimationFrame(update);
@@ -310,7 +314,7 @@ function initSite() {
   setupMobileMenu();
   setupAnchorNavigation();
   setupSectionObserver();
-  setupGridParallax();
+  setupBackgroundParallax();
 }
 
 window.siteTranslations = translations;
