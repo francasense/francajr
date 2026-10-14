@@ -88,7 +88,7 @@ for image_path in (
     require(image_path in html, f"missing local project image reference: {image_path}")
 
 for image_tag in re.findall(r"<img\b[^>]*>", html, flags=re.IGNORECASE):
-    is_decorative_background = "mobile-wireframes.png" in image_tag and 'alt=""' in image_tag
+    is_decorative_background = "mobile-wireframes-" in image_tag and 'alt=""' in image_tag
     require(is_decorative_background or bool(re.search(r'\balt="[^"].*?"', image_tag, flags=re.IGNORECASE)), "project image is missing non-empty alt text")
 
 require("translations" in js and 'pt:' in js and 'en:' in js, "missing PT/EN translation dictionaries")
@@ -105,11 +105,11 @@ require("object-fit" in css and "max-width: 100%" in css, "missing constrained p
 require('class="grid-layer"' in html, "missing fixed grid layer")
 require(".grid-layer" in css and "mask-image" in css and "position: fixed" in css, "missing masked fixed grid styling")
 require("--grid-shift" in css and "requestAnimationFrame" in js and 'setProperty("--grid-shift"' in js, "missing grid parallax behavior")
-require('class="wireframe-layer"' in html and "assets/images/wireframe/mobile-wireframes.png" in html, "missing wireframe background asset")
-require(html.count("assets/images/wireframe/mobile-wireframes.png") >= 2, "missing repeated wireframe art for continuous parallax")
+require('class="wireframe-layer"' in html and "assets/images/wireframe/mobile-wireframes-vertical.png" in html, "missing vertical wireframe background asset")
+require("mobile-wireframes-vertical.png" in html and html.count("mobile-wireframes-vertical.png") == 1, "wireframe background should use one vertical artwork")
 require(".wireframe-layer" in css and "rotate(" in css and "position: fixed" in css, "missing diagonal wireframe background styling")
 require("--wireframe-shift" in css and 'setProperty("--wireframe-shift"' in js, "missing wireframe parallax behavior")
-require("wireframeCycle" in js and "% wireframeCycle" in js, "missing continuous wireframe parallax cycle")
+require("const wireframeShift = scrollY * -0.06" in js, "missing continuous vertical wireframe parallax")
 require("function scrollToSection" in js and 'querySelector(".section-heading")' in js and "window.scrollTo" in js, "missing section heading scroll alignment")
 
 data_keys = set(re.findall(r'data-i18n="([^"]+)"', html))

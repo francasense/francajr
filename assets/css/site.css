@@ -17,7 +17,6 @@
   --grid-size: 72px;
   --grid-shift: 0px;
   --wireframe-shift: 0px;
-  --wireframe-cycle: 82vh;
 }
 
 * { box-sizing: border-box; }
@@ -55,7 +54,7 @@ body {
   inset: 0;
   overflow: hidden;
   pointer-events: none;
-  opacity: 0.1;
+  opacity: 0.055;
   mask-image: radial-gradient(80% 72% at 52% 50%, rgba(0, 0, 0, 1) 32%, rgba(0, 0, 0, 0) 100%);
   -webkit-mask-image: radial-gradient(80% 72% at 52% 50%, rgba(0, 0, 0, 1) 32%, rgba(0, 0, 0, 0) 100%);
   mix-blend-mode: screen;
@@ -63,16 +62,15 @@ body {
 
 .wireframe-layer img {
   position: absolute;
-  top: 12vh;
-  right: -8vw;
-  width: min(1200px, 86vw);
+  top: -22vh;
+  right: -4vw;
+  height: 235vh;
+  width: auto;
   max-width: none;
-  transform: translate3d(0, var(--wireframe-shift), 0) rotate(-5deg);
+  transform: translate3d(0, var(--wireframe-shift), 0) rotate(0deg);
   filter: grayscale(0.2) contrast(0.92);
   will-change: transform;
 }
-
-.wireframe-layer .wireframe-art-secondary { top: calc(12vh + var(--wireframe-cycle)); }
 
 body::before {
   position: fixed;
@@ -262,9 +260,8 @@ main, .site-footer { position: relative; z-index: 1; }
   :root { --section-space: 6.5rem; }
   html { scroll-behavior: auto; }
   :root { --grid-size: 46px; }
-  .wireframe-layer { opacity: 0.07; }
-  .wireframe-layer img { top: 18vh; right: -48vw; width: 145vw; }
-  .wireframe-layer .wireframe-art-secondary { top: calc(18vh + var(--wireframe-cycle)); }
+  .wireframe-layer { opacity: 0.035; }
+  .wireframe-layer img { top: -8vh; right: -42vw; height: 225vh; width: auto; }
   .site-rail { display: none; }
   .mobile-header { position: fixed; z-index: 12; top: 0; right: 0; left: 0; display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; border-bottom: 1px solid var(--color-line); background: rgba(17, 17, 17, 0.86); backdrop-filter: blur(12px); }
   .menu-toggle { display: inline-flex; align-items: center; gap: 0.75rem; border: 0; background: transparent; color: var(--color-accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.63rem; text-transform: uppercase; }
@@ -305,5 +302,5 @@ main, .site-footer { position: relative; z-index: 1; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
   .grid-layer { transform: none; }
-  .wireframe-layer img { transform: rotate(-5deg); }
+  .wireframe-layer img { transform: none; }
 }

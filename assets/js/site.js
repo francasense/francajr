@@ -297,8 +297,7 @@ function setupBackgroundParallax() {
     frame = 0;
     const scrollY = window.scrollY;
     const gridShift = Math.max(-72, Math.min(72, scrollY * -0.08));
-    const wireframeCycle = Math.max(window.innerHeight * 0.82, 480);
-    const wireframeShift = -((scrollY * 0.18) % wireframeCycle);
+    const wireframeShift = scrollY * -0.06;
     document.documentElement.style.setProperty("--grid-shift", `${gridShift.toFixed(2)}px`);
     document.documentElement.style.setProperty("--wireframe-shift", `${wireframeShift.toFixed(2)}px`);
   };
