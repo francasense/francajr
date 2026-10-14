@@ -278,12 +278,29 @@ function setupSectionObserver() {
   updateFromScroll();
 }
 
+function setupGridParallax() {
+  const grid = document.querySelector(".grid-layer");
+  if (!grid || prefersReducedMotion()) return;
+  let frame = 0;
+  const update = () => {
+    frame = 0;
+    const shift = Math.max(-72, Math.min(72, window.scrollY * -0.08));
+    document.documentElement.style.setProperty("--grid-shift", `${shift.toFixed(2)}px`);
+  };
+  const requestUpdate = () => {
+    if (!frame) frame = window.requestAnimationFrame(update);
+  };
+  window.addEventListener("scroll", requestUpdate, { passive: true });
+  update();
+}
+
 function initSite() {
   applyTranslations(getPreferredLanguage());
   setupLanguageControls();
   setupMobileMenu();
   setupAnchorNavigation();
   setupSectionObserver();
+  setupGridParallax();
 }
 
 window.siteTranslations = translations;
