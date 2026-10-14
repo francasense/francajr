@@ -85,6 +85,9 @@ for image_path in (
     "assets/images/projects/kahsh/relatorios.jpg",
     "assets/images/projects/kahsh/transacoes.jpg",
     "assets/images/projects/hitss/sisdagro.png",
+    "assets/images/projects/motz/home.png",
+    "assets/images/projects/motz/signup.png",
+    "assets/images/projects/motz/fretes.png",
 ):
     require(image_path in html, f"missing local project image reference: {image_path}")
 
