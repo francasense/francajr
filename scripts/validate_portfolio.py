@@ -84,6 +84,7 @@ for image_path in (
     "assets/images/projects/kahsh/cadastro.jpg",
     "assets/images/projects/kahsh/relatorios.jpg",
     "assets/images/projects/kahsh/transacoes.jpg",
+    "assets/images/projects/hitss/sisdagro.png",
 ):
     require(image_path in html, f"missing local project image reference: {image_path}")
 
@@ -102,6 +103,7 @@ require("hero-statement" in css, "missing hero statement styling")
 require("hero-statement-role" in css and "var(--color-accent)" in css, "missing highlighted hero role styling")
 require("var(--font-display)" in css and "font-style: italic" in css, "missing serif italic hero role styling")
 require("object-fit" in css and "max-width: 100%" in css, "missing constrained project media rules")
+require("project-visual-single" in css, "missing single-image project visual styling")
 require('class="grid-layer"' in html, "missing fixed grid layer")
 require(".grid-layer" in css and "mask-image" in css and "position: fixed" in css, "missing masked fixed grid styling")
 require("--grid-shift" in css and "requestAnimationFrame" in js and 'setProperty("--grid-shift"' in js, "missing grid parallax behavior")

@@ -215,6 +215,8 @@ main, .site-footer { position: relative; z-index: 1; }
 .project-visual img:nth-child(2) { transform: translateY(1.8rem); }
 .project-visual-small { min-height: 310px; background: rgba(197, 255, 74, 0.045); }
 .project-visual-small img { max-height: 365px; }
+.project-visual-single { grid-template-columns: 1fr; align-items: center; padding: clamp(1rem, 3vw, 2rem); background: rgba(197, 255, 74, 0.035); }
+.project-visual-single img { height: auto; max-height: none; object-fit: contain; }
 .project-content { display: flex; min-width: 0; flex-direction: column; align-items: flex-start; justify-content: center; padding: clamp(2rem, 5vw, 4.5rem); }
 .project-kicker { margin: 0 0 1.3rem; color: var(--color-accent); font-size: 0.6rem; }
 .project-content h3 { margin: 0; font-family: var(--font-display); font-size: clamp(2rem, 3vw, 3.2rem); font-weight: 400; letter-spacing: -0.06em; line-height: 1; }
