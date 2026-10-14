@@ -160,7 +160,7 @@ img { display: block; max-width: 100%; }
 main, .site-footer { position: relative; z-index: 1; }
 .section-shell { width: min(var(--content-width), calc(100% - 9rem)); margin-left: max(var(--rail-width), calc((100vw - var(--content-width)) / 2 + var(--rail-width) / 2)); margin-right: auto; }
 
-.hero { position: relative; display: flex; min-height: 100vh; align-items: center; padding-top: 5rem; padding-bottom: 5rem; }
+.hero { position: relative; display: flex; min-height: 100vh; align-items: center; padding-top: 1rem; padding-bottom: 5rem; }
 .hero-grid { display: grid; width: 100%; grid-template-columns: minmax(0, 1fr) 210px; gap: 4rem; align-items: end; }
 .eyebrow, .section-number, .project-kicker, .timeline-meta, .availability, .hero-index, .hero-note, .scroll-cue small { color: var(--color-muted); font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; }
 .eyebrow { margin: 0 0 1.5rem; color: var(--color-accent); }
