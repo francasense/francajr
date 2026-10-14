@@ -189,7 +189,7 @@ function applyTranslations(language) {
     element.setAttribute("aria-label", translate(element.dataset.i18nAriaLabel, selectedLanguage));
   });
 
-  document.querySelectorAll("[data-language]").forEach((button) => {
+  document.querySelectorAll("button[data-language]").forEach((button) => {
     const isSelected = button.dataset.language === selectedLanguage;
     button.classList.toggle("is-active", isSelected);
     button.setAttribute("aria-pressed", String(isSelected));
@@ -220,7 +220,7 @@ function closeMobileMenu() {
 }
 
 function setupLanguageControls() {
-  document.querySelectorAll("[data-language]").forEach((button) => {
+  document.querySelectorAll("button[data-language]").forEach((button) => {
     button.addEventListener("click", () => setLanguage(button.dataset.language));
   });
 }
