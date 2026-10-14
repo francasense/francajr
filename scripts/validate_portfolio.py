@@ -104,6 +104,7 @@ require("object-fit" in css and "max-width: 100%" in css, "missing constrained p
 require('class="grid-layer"' in html, "missing fixed grid layer")
 require(".grid-layer" in css and "mask-image" in css and "position: fixed" in css, "missing masked fixed grid styling")
 require("--grid-shift" in css and "requestAnimationFrame" in js and 'setProperty("--grid-shift"' in js, "missing grid parallax behavior")
+require("function scrollToSection" in js and 'querySelector(".section-heading")' in js and "window.scrollTo" in js, "missing section heading scroll alignment")
 
 data_keys = set(re.findall(r'data-i18n="([^"]+)"', html))
 data_keys.update(re.findall(r'data-i18n-alt="([^"]+)"', html))

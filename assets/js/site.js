@@ -240,6 +240,14 @@ function setupMobileMenu() {
   document.querySelectorAll("#mobile-menu a").forEach((link) => link.addEventListener("click", closeMobileMenu));
 }
 
+function scrollToSection(target) {
+  const anchor = target.querySelector(".section-heading") || target;
+  const mobileHeader = document.querySelector(".mobile-header");
+  const headerOffset = mobileHeader ? mobileHeader.getBoundingClientRect().height : 0;
+  const top = Math.max(0, anchor.getBoundingClientRect().top + window.scrollY - headerOffset - 16);
+  window.scrollTo({ top, behavior: prefersReducedMotion() ? "auto" : "smooth" });
+}
+
 function setupAnchorNavigation() {
   document.querySelectorAll('a[href^="#"]').forEach((link) => {
     const targetId = link.getAttribute("href");
@@ -247,7 +255,7 @@ function setupAnchorNavigation() {
     if (!target) return;
     link.addEventListener("click", (event) => {
       event.preventDefault();
-      target.scrollIntoView({ behavior: prefersReducedMotion() ? "auto" : "smooth", block: "start" });
+      scrollToSection(target);
       if (targetId !== "#hero") history.replaceState(null, "", targetId);
       closeMobileMenu();
     });
