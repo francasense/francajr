@@ -82,8 +82,11 @@ require(":focus-visible" in css, "missing keyboard focus style")
 require("prefers-reduced-motion" in css, "missing reduced-motion support")
 
 data_keys = set(re.findall(r'data-i18n="([^"]+)"', html))
+data_keys.update(re.findall(r'data-i18n-alt="([^"]+)"', html))
+data_keys.update(re.findall(r'data-i18n-aria-label="([^"]+)"', html))
 for key in sorted(data_keys):
     require(key in js, f"translation key is not present in site.js: {key}")
+    require(js.count(f'"{key}"') >= 2, f"translation key is not present in both PT/EN dictionaries: {key}")
 
 if errors:
     print("portfolio validation failed:")
