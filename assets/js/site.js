@@ -16,7 +16,7 @@ const translations = {
     "hero.titleLineOne": "Carlos Henrique",
     "hero.titleLineTwo": "Castro França Júnior",
     "hero.role": "Desenvolvedor Mobile Sênior | React Native | TypeScript | Android e iOS",
-    "hero.intro": "Arquitetura mobile, qualidade de código e produtos que chegam às mãos das pessoas.",
+    "hero.intro": "Engenharia mobile que transforma código em produtos de forma ágil, escaláveis e que geram resultados.",
     "hero.cta": "Ver projetos ↘",
     "hero.download": "Baixar currículo ↗",
     "hero.availability": "disponível para boas conversas",
